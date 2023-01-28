@@ -1,0 +1,209 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "run",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "setUp",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50606f80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80630a9254e4146037578063c0406226146037575b600080fd5b00fea2646970667358221220a9f273318bad86a9ca6cdcbf712b823ff4748a7cf0c781db28ea6dae6e020ecd64736f6c63430008110033",
+    "sourceMap": "99:119:1:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80630a9254e4146037578063c0406226146037575b600080fd5b00fea2646970667358221220a9f273318bad86a9ca6cdcbf712b823ff4748a7cf0c781db28ea6dae6e020ecd64736f6c63430008110033",
+    "sourceMap": "99:119:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;129:26;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "run()": "c0406226",
+    "setUp()": "0a9254e4"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"run\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setUp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"script/Counter.s.sol\":\"CounterScript\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":forge-std/=lib/forge-std/\"]},\"sources\":{\"script/Counter.s.sol\":{\"keccak256\":\"0xc1aae3003f1e8a44418c5f6ab336fb93b2dd2ef463edbae88385c772e3b2cc94\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://67fbad26161d981b8e44389c44b28ac2660eeff588a374d4ec0a729dd9cbda9b\",\"dweb:/ipfs/QmY899TM49WMmEEK6mxyvd1qC4DHxEU6czPvKQWQd39FbR\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "run"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setUp"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":forge-std/=lib/forge-std/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "script/Counter.s.sol": "CounterScript"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "script/Counter.s.sol": {
+        "keccak256": "0xc1aae3003f1e8a44418c5f6ab336fb93b2dd2ef463edbae88385c772e3b2cc94",
+        "urls": [
+          "bzz-raw://67fbad26161d981b8e44389c44b28ac2660eeff588a374d4ec0a729dd9cbda9b",
+          "dweb:/ipfs/QmY899TM49WMmEEK6mxyvd1qC4DHxEU6czPvKQWQd39FbR"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "script/Counter.s.sol",
+    "id": 1692,
+    "exportedSymbols": {
+      "CounterScript": [
+        1691
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:180:1",
+    "nodes": [
+      {
+        "id": 1682,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:1",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 1691,
+        "nodeType": "ContractDefinition",
+        "src": "99:119:1",
+        "nodes": [
+          {
+            "id": 1686,
+            "nodeType": "FunctionDefinition",
+            "src": "129:26:1",
+            "nodes": [],
+            "body": {
+              "id": 1685,
+              "nodeType": "Block",
+              "src": "153:2:1",
+              "nodes": [],
+              "statements": []
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "138:5:1",
+            "parameters": {
+              "id": 1683,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "143:2:1"
+            },
+            "returnParameters": {
+              "id": 1684,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "153:0:1"
+            },
+            "scope": 1691,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 1690,
+            "nodeType": "FunctionDefinition",
+            "src": "161:55:1",
+            "nodes": [],
+            "body": {
+              "id": 1689,
+              "nodeType": "Block",
+              "src": "183:33:1",
+              "nodes": [],
+              "statements": []
+            },
+            "functionSelector": "c0406226",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "run",
+            "nameLocation": "170:3:1",
+            "parameters": {
+              "id": 1687,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "173:2:1"
+            },
+            "returnParameters": {
+              "id": 1688,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "183:0:1"
+            },
+            "scope": 1691,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CounterScript",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          1691
+        ],
+        "name": "CounterScript",
+        "nameLocation": "108:13:1",
+        "scope": 1692,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 1
+}
