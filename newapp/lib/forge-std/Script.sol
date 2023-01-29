@@ -8,7 +8,7 @@ import "./console2.sol";
 abstract contract Script {
     bool public IS_SCRIPT = true;
     address constant private VM_ADDRESS =
-        address(bytes20(uint160(uint256(keccak256('hevm cheat code')))));
+        address(bytes20(uint160(uint256(keccak256('new address')))));
 
     Vm public constant vm = Vm(VM_ADDRESS);
 

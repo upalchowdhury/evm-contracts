@@ -56,8 +56,8 @@
       }
     },
     "lib/forge-std/Test.sol": {
-      "lastModificationDate": 1674930438564,
-      "contentHash": "544bc935b974fde9b6d40677a83231fa",
+      "lastModificationDate": 1674932705443,
+      "contentHash": "bae944e0608ccc6cfd590cb1670c74ef",
       "sourceName": "lib/forge-std/Test.sol",
       "solcConfig": {
         "settings": {
@@ -88,7 +88,7 @@
         }
       },
       "imports": [],
-      "versionRequirement": ">=0.4.23",
+      "versionRequirement": "^0.8.17",
       "artifacts": {
         "DSTest": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "Test.sol/DSTest.json"
